@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /*google fonts*/
+    margin: 0 auto;
+
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    color: Black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.topnav {
+    width: 100%;
+    /* extra dimensions */
+    box-sizing: border-box;
+    /*rem > px*/
+    padding: 1rem 4rem;
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    /*adds a shadow to the container*/
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+    position: absolute;
+}
+
+.topnav a {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 2rem;
+    text-decoration: none;
+    /*no underline on links*/
+}
+
+.topnav a:last-child {
+    margin-right: 0;
+    /*moves "resume" to the right*/
+}
+
+.topnav a:hover {
+    color: grey;
+}
+
+.avatar {
+    width: 50%;
+    background-image: url("./assets/test.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    /*view height*/
+}
+
+.home {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 8rem;
+    height: 100%;
+    width: 100%;
+}
+
+.home-left {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-avatar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons {
+    width: 100%;
+}
+
+.icons-link {
+    width: fit-content;
+}
+
+
+.home-right {
+    display: flex;
+    flex: 1;
+    /*spaces the text */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    /*boxes the text*/
+}
+
+.contact {
+    background-color: blueviolet;
+}
+
+.second {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 8rem;
+    height: 100%;
+    width: 100%;
+}
+.second-left {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-left-h {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-right {
+    display: flex;
+    flex: 1;
+    /*spaces the text */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    /*boxes the text*/
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
